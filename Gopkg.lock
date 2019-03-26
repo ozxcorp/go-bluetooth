@@ -2,7 +2,12 @@
 
 
 [[projects]]
-  digest = "1:d5286d88d5620c43617ecec0ec188ded033bf7a434b0c708cd16cd9a40545d04"
+  name = "github.com/sirupsen/logrus"
+  packages = ["."]
+  revision = "c155da19408a8799da419ed3eeb0cb5db0ad5dbc"
+  version = "v1.0.5"
+
+[[projects]]
   name = "github.com/coreos/go-systemd"
   packages = ["dbus"]
   pruneopts = "UT"
